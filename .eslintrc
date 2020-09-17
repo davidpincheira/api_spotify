@@ -1,0 +1,14 @@
+{
+    "extends": "eslint:recommended",
+    "env": { 
+        "es6": true, 
+        "node": true, 
+        "browser": true 
+      },
+    "rules":{
+        "no-undef": 2,
+        "no-var": 2,
+        "no-unused-vars": 2,
+        "prefer-const": 2
+    }
+}
